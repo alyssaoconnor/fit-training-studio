@@ -1,0 +1,94 @@
+/*Wrapper*/
+#wrapper {
+    width: 98%;
+    margin: auto;
+}
+
+#banner {
+
+ 
+}
+
+div#nav {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+	z-index:1;
+}
+
+#nav ul li {
+    width: 100%;
+    height: auto;
+    background-color: #808080;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+#nav ul li:hover {
+	background-color:#c86caa;
+	
+}
+
+#nav ul li a {
+    color: #fff;
+	font-weight: bold;
+    font-size: 1.2em;
+}
+
+#togglemenu {
+	height: 50px;
+	width: 60px;
+	background: gray;
+	float: right;
+	display: block;
+	margin-right: 20px;
+	
+}
+
+#togglemenu  div {
+	height: 4px;
+	background: white;
+	border: 5px;
+	margin: 9px;
+}
+
+#nav ul {
+	display: none;
+}
+
+.leftH2 {
+    text-align: left;
+     padding:  0; 
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+.footer {
+    height: 8em;
+   
+}
+
+div#creditCardPayment img {
+
+    width: 10%;
+    height: auto;
+     border: 1px solid #000; 
+}
+
+
+/*##### FOOTER #####*/
+
+.footer .socialmedia {
+    top: 20px;
+    left: 35%;
+	    margin-left: 0px;
+
+}
+
+.footer p {
+    padding-top: 4em;
+    /* width: 340px; */
+}
+
+.footer .socialmedia .fab {
+	cursor: pointer;
+}
